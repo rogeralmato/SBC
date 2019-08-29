@@ -1,0 +1,1582 @@
+; Wed May 01 22:49:33 CEST 2019
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+([KB_096355_Class41] of  Usuari
+
+	(Activitat+Fisica Normal)
+	(Edat 65)
+	(MenuDia
+		[KB_096355_Class42]
+		[KB_096355_Class43]
+		[KB_096355_Class45]
+		[KB_096355_Class46]
+		[KB_096355_Class47]
+		[KB_096355_Class48]
+		[KB_096355_Class49])
+	(Sexe Home))
+
+([KB_096355_Class42] of  DiaSetmana
+
+	(MenuDinar [PlanificacioMenu_Class20000])
+	(MenuEsmorzar [PlanificacioMenu_Class20001])
+	(MenuSopar [PlanificacioMenu_Class20002])
+	(NomDia Dilluns))
+
+([KB_096355_Class43] of  DiaSetmana
+
+	(NomDia Dimarts))
+
+([KB_096355_Class45] of  DiaSetmana
+
+	(NomDia Dimecres))
+
+([KB_096355_Class46] of  DiaSetmana
+
+	(NomDia Dijous))
+
+([KB_096355_Class47] of  DiaSetmana
+
+	(NomDia Divendres))
+
+([KB_096355_Class48] of  DiaSetmana
+
+	(NomDia Dissabte))
+
+([KB_096355_Class49] of  DiaSetmana
+
+	(NomDia Diumenge))
+
+([PlanificacioMenu_Class0] of  Lactic
+
+	(Colesterol 0.024)
+	(ContingutCaloric 134.0)
+	(Fibra 0.0)
+	(GreixosMonoinsaturats 2.0)
+	(GreixosPolisaturats 0.5)
+	(GreixosSaturats 4.6)
+	(HidratsDeCarboni 10.55)
+	(IngredientsPlat [PlanificacioMenu_Class3])
+	(NomPlat "Got de llet sencera")
+	(Proteines 6.8)
+	(Sal 0.1)
+	(Sucres 12.3))
+
+([PlanificacioMenu_Class10] of  AltresIngredients
+
+	(NomIngredient "Sucre"))
+
+([PlanificacioMenu_Class10000] of  PrimerPlat
+
+	(Colesterol 0.0025)
+	(ContingutCaloric 176.0)
+	(Fibra 2.3)
+	(GreixosMonoinsaturats 0.2)
+	(GreixosPolisaturats 0.4)
+	(GreixosSaturats 0.3)
+	(HidratsDeCarboni 35.8)
+	(IngredientsPlat
+		[PlanificacioMenu_Class10001]
+		[PlanificacioMenu_Class10012]
+		[PlanificacioMenu_Class10]
+		[PlanMenu_Class50])
+	(NomPlat "Macarrons amb tomaquet")
+	(Proteines 5.6)
+	(Sal 0.7)
+	(Sucres 10.1))
+
+([PlanificacioMenu_Class10001] of  Pasta
+
+	(NomIngredient "Macarrons"))
+
+([PlanificacioMenu_Class10002] of  Pasta
+
+	(NomIngredient "Espaguetis"))
+
+([PlanificacioMenu_Class10003] of  Pasta
+
+	(NomIngredient "Raviolis"))
+
+([PlanificacioMenu_Class10004] of  Pasta
+
+	(NomIngredient "Tortelinis"))
+
+([PlanificacioMenu_Class10009] of  Llegums
+
+	(NomIngredient "Cigrons"))
+
+([PlanificacioMenu_Class10010] of  Llegums
+
+	(NomIngredient "Llenties"))
+
+([PlanificacioMenu_Class10011] of  Fruita
+
+	(NomIngredient "Llimona"))
+
+([PlanificacioMenu_Class10012] of  Fruita
+
+	(NomIngredient "Tomaquet"))
+
+([PlanificacioMenu_Class10013] of  PrimerPlat
+
+	(Colesterol 0.032)
+	(ContingutCaloric 228.0)
+	(Fibra 1.5)
+	(GreixosMonoinsaturats 0.8)
+	(GreixosPolisaturats 1.3)
+	(GreixosSaturats 0.7)
+	(HidratsDeCarboni 43.4)
+	(IngredientsPlat [PlanificacioMenu_Class10014])
+	(NomPlat "Arros fregit")
+	(Proteines 6.5)
+	(Sal 0.6)
+	(Sucres 0.6))
+
+([PlanificacioMenu_Class10014] of  Sencer
+
+	(NomIngredient "Arros"))
+
+([PlanificacioMenu_Class10015] of  PrimerPlat
+
+	(Colesterol 0.0)
+	(ContingutCaloric 365.0)
+	(Fibra 1.3)
+	(GreixosMonoinsaturats 0.2)
+	(GreixosPolisaturats 0.2)
+	(GreixosSaturats 0.2)
+	(HidratsDeCarboni 80.0)
+	(IngredientsPlat [PlanificacioMenu_Class10014])
+	(NomPlat "Arros blanc")
+	(Proteines 7.1)
+	(Sal 0.1)
+	(Sucres 0.1))
+
+([PlanificacioMenu_Class10016] of  PrimerPlat
+
+	(Colesterol 0.0)
+	(ContingutCaloric 46.4)
+	(Fibra 0.5)
+	(GreixosMonoinsaturats 0.1)
+	(GreixosPolisaturats 0.1)
+	(GreixosSaturats 0.1)
+	(HidratsDeCarboni 4.4)
+	(IngredientsPlat
+		[PlanMenu_Class50]
+		[PlanMenu_Class53]
+		[PlanificacioMenu_Class27]
+		[PlanificacioMenu_Class10012]
+		[PlanificacioMenu_Class10018]
+		[PlanificacioMenu_Class10019]
+		[PlanificacioMenu_Class10017]
+		[PlanificacioMenu_Class10020])
+	(NomPlat "Gazpacho")
+	(Proteines 7.1)
+	(Sal 0.7)
+	(Sucres 1.4))
+
+([PlanificacioMenu_Class10017] of  Altres
+
+	(NomIngredient "Ceba"))
+
+([PlanificacioMenu_Class10018] of  Altres
+
+	(NomIngredient "Pebrot"))
+
+([PlanificacioMenu_Class10019] of  Altres
+
+	(NomIngredient "Cogombre"))
+
+([PlanificacioMenu_Class10020] of  Altres
+
+	(NomIngredient "All"))
+
+([PlanificacioMenu_Class10022] of  PrimerPlat
+
+	(Colesterol 0.0169)
+	(ContingutCaloric 148.0)
+	(Fibra 1.7)
+	(GreixosMonoinsaturats 2.5)
+	(GreixosPolisaturats 1.5)
+	(GreixosSaturats 0.6)
+	(HidratsDeCarboni 17.0)
+	(IngredientsPlat
+		[PlanMenu_Class32]
+		[PlanificacioMenu_Class10017]
+		[PlanMenu_Class57]
+		[PlanificacioMenu_Class10024]
+		[PlanificacioMenu_Class10026])
+	(NomPlat "Sopa de pollastre")
+	(Proteines 7.1)
+	(Sal 1.7)
+	(Sucres 3.0))
+
+([PlanificacioMenu_Class10023] of  PrimerPlat
+
+	(Colesterol 0.0)
+	(ContingutCaloric 149.0)
+	(Fibra 1.3)
+	(GreixosMonoinsaturats 1.7)
+	(GreixosPolisaturats 1.5)
+	(GreixosSaturats 0.6)
+	(HidratsDeCarboni 24.6)
+	(IngredientsPlat
+		[PlanificacioMenu_Class10020]
+		[PlanMenu_Class57]
+		[PlanificacioMenu_Class10018]
+		[PlanificacioMenu_Class10024]
+		[PlanificacioMenu_Class10025])
+	(NomPlat "Sopa de verdures")
+	(Proteines 4.3)
+	(Sal 1.3)
+	(Sucres 7.9))
+
+([PlanificacioMenu_Class10024] of  Altres
+
+	(NomIngredient "Api"))
+
+([PlanificacioMenu_Class10025] of  Altres
+
+	(NomIngredient "Carbasso"))
+
+([PlanificacioMenu_Class10026] of  Altres
+
+	(NomIngredient "Julivert"))
+
+([PlanificacioMenu_Class10027] of  PrimerPlat
+
+	(Colesterol 0.0050)
+	(ContingutCaloric 99.0)
+	(Fibra 1.6)
+	(GreixosMonoinsaturats 1.6)
+	(GreixosPolisaturats 0.2)
+	(GreixosSaturats 1.4)
+	(HidratsDeCarboni 13.7)
+	(IngredientsPlat
+		[PlanificacioMenu_Class10003]
+		[PlanificacioMenu_Class10028])
+	(NomPlat "Raviolis de carn")
+	(Proteines 3.4)
+	(Sal 0.4)
+	(Sucres 2.4))
+
+([PlanificacioMenu_Class10028] of  Carn
+
+	(NomIngredient "Vedella"))
+
+([PlanificacioMenu_Class10029] of  PrimerPlat
+
+	(Colesterol 0.0080)
+	(ContingutCaloric 164.0)
+	(Fibra 1.2)
+	(GreixosMonoinsaturats 2.2)
+	(GreixosPolisaturats 1.0)
+	(GreixosSaturats 1.6)
+	(HidratsDeCarboni 23.1)
+	(IngredientsPlat
+		[PlanificacioMenu_Class10001]
+		[PlanMenu_Class47])
+	(NomPlat "Macarrons amb formatge")
+	(Proteines 6.7)
+	(Sal 0.5)
+	(Sucres 1.6))
+
+([PlanificacioMenu_Class10030] of  PrimerPlat
+
+	(Colesterol 0.042)
+	(ContingutCaloric 307.0)
+	(Fibra 1.9)
+	(GreixosMonoinsaturats 2.1)
+	(GreixosPolisaturats 0.5)
+	(GreixosSaturats 3.6)
+	(HidratsDeCarboni 47.0)
+	(IngredientsPlat
+		[PlanificacioMenu_Class10004]
+		[PlanMenu_Class47])
+	(NomPlat "Tortelini de formatge")
+	(Proteines 13.5)
+	(Sal 0.4)
+	(Sucres 0.9))
+
+([PlanificacioMenu_Class10031] of  Guarnicio
+
+	(Colesterol 0.0)
+	(ContingutCaloric 23.0)
+	(Fibra 2.4)
+	(GreixosMonoinsaturats 0.1)
+	(GreixosPolisaturats 0.1)
+	(GreixosSaturats 0.1)
+	(HidratsDeCarboni 3.8)
+	(IngredientsPlat [PlanificacioMenu_Class10032])
+	(NomPlat "Espinacs cuinats")
+	(Proteines 3.0)
+	(Sal 0.3)
+	(Sucres 0.4))
+
+([PlanificacioMenu_Class10032] of  Verd+Fosc
+
+	(NomIngredient "Espinacs"))
+
+([PlanificacioMenu_Class10033] of  PrimerPlat
+
+	(Colesterol 0.0)
+	(ContingutCaloric 336.0)
+	(Fibra 0.0)
+	(GreixosMonoinsaturats 0.2)
+	(GreixosPolisaturats 0.2)
+	(GreixosSaturats 0.1)
+	(HidratsDeCarboni 74.6)
+	(IngredientsPlat
+		[PlanificacioMenu_Class10034]
+		[PlanificacioMenu_Class10020]
+		[PlanificacioMenu_Class10017]
+		[PlanificacioMenu_Class10012]
+		[PlanMenu_Class50]
+		[PlanMenu_Class51]
+		[PlanMenu_Class53]
+		[PlanificacioMenu_Class10025]
+		[PlanificacioMenu_Class10018])
+	(NomPlat "Bol de fideus amb verdures")
+	(Proteines 14.4)
+	(Sal 0.8)
+	(Sucres 0.8))
+
+([PlanificacioMenu_Class10034] of  Pasta
+
+	(NomIngredient "Fideus"))
+
+([PlanificacioMenu_Class10035] of  PrimerPlat
+
+	(Colesterol 0.0)
+	(ContingutCaloric 139.0)
+	(Fibra 6.3)
+	(GreixosMonoinsaturats 0.1)
+	(GreixosPolisaturats 0.2)
+	(GreixosSaturats 0.1)
+	(HidratsDeCarboni 25.1)
+	(IngredientsPlat [PlanificacioMenu_Class10036])
+	(NomPlat "Mongetes blanques")
+	(Proteines 9.7)
+	(Sal 0.2)
+	(Sucres 0.3))
+
+([PlanificacioMenu_Class10036] of  Llegums
+
+	(NomIngredient "Mongetes blanques"))
+
+([PlanificacioMenu_Class10037] of  PrimerPlat
+
+	(Colesterol 0.0)
+	(ContingutCaloric 269.0)
+	(Fibra 12.5)
+	(GreixosMonoinsaturats 1.0)
+	(GreixosPolisaturats 1.9)
+	(GreixosSaturats 0.4)
+	(HidratsDeCarboni 45.0)
+	(IngredientsPlat [PlanificacioMenu_Class10009])
+	(NomPlat "Cigrons")
+	(Proteines 14.5)
+	(Sal 0.4)
+	(Sucres 7.9))
+
+([PlanificacioMenu_Class10038] of  PrimerPlat
+
+	(Colesterol 0.0)
+	(ContingutCaloric 44.0)
+	(Fibra 4.0)
+	(GreixosMonoinsaturats 0.1)
+	(GreixosPolisaturats 0.2)
+	(GreixosSaturats 0.1)
+	(HidratsDeCarboni 9.9)
+	(IngredientsPlat [PlanificacioMenu_Class10040])
+	(NomPlat "Mongetes verdes")
+	(Proteines 2.4)
+	(Sal 0.3)
+	(Sucres 1.9))
+
+([PlanificacioMenu_Class10040] of  Llegums
+
+	(NomIngredient "Mongetes verdes"))
+
+([PlanificacioMenu_Class10041] of  PrimerPlat
+
+	(Colesterol 0.0)
+	(ContingutCaloric 226.0)
+	(Fibra 15.6)
+	(GreixosMonoinsaturats 0.1)
+	(GreixosPolisaturats 0.3)
+	(GreixosSaturats 0.1)
+	(HidratsDeCarboni 0.0387)
+	(IngredientsPlat [PlanificacioMenu_Class10010])
+	(NomPlat "Llenties")
+	(Proteines 17.9)
+	(Sal 0.5)
+	(Sucres 3.6))
+
+([PlanificacioMenu_Class10042] of  PrimerPlat
+
+	(Colesterol 0.0)
+	(ContingutCaloric 84.0)
+	(Fibra 5.5)
+	(GreixosMonoinsaturats 0.1)
+	(GreixosPolisaturats 0.1)
+	(GreixosSaturats 0.1)
+	(HidratsDeCarboni 15.6)
+	(IngredientsPlat [PlanificacioMenu_Class10043])
+	(NomPlat "Pesols")
+	(Proteines 5.4)
+	(Sal 0.2)
+	(Sucres 5.9))
+
+([PlanificacioMenu_Class10043] of  Verd+Fosc
+
+	(NomIngredient "Pesols"))
+
+([PlanificacioMenu_Class10044] of  PrimerPlat
+
+	(Colesterol 0.011)
+	(ContingutCaloric 113.0)
+	(Fibra 1.5)
+	(GreixosMonoinsaturats 1.1)
+	(GreixosPolisaturats 0.2)
+	(GreixosSaturats 2.6)
+	(HidratsDeCarboni 16.8)
+	(IngredientsPlat
+		[PlanMenu_Class46]
+		[PlanificacioMenu_Class10045]
+		[PlanificacioMenu_Class3])
+	(NomPlat "Pure de patata amb llet")
+	(Proteines 1.9)
+	(Sal 0.3)
+	(Sucres 1.4))
+
+([PlanificacioMenu_Class10045] of  Oli
+
+	(NomIngredient "Mantega"))
+
+([PlanificacioMenu_Class10046] of  PrimerPlat
+
+	(Colesterol 0.0)
+	(ContingutCaloric 87.0)
+	(Fibra 2.0)
+	(GreixosMonoinsaturats 0.1)
+	(GreixosPolisaturats 0.1)
+	(GreixosSaturats 0.1)
+	(HidratsDeCarboni 20.1)
+	(IngredientsPlat [PlanMenu_Class46])
+	(NomPlat "Patat bullida")
+	(Proteines 1.9)
+	(Sal 0.2)
+	(Sucres 0.9))
+
+([PlanificacioMenu_Class10047] of  PrimerPlat
+
+	(Colesterol 0.017)
+	(ContingutCaloric 157.0)
+	(Fibra 1.3)
+	(GreixosMonoinsaturats 2.0)
+	(GreixosPolisaturats 5.0)
+	(GreixosSaturats 1.4)
+	(HidratsDeCarboni 16.2)
+	(IngredientsPlat
+		[PlanMenu_Class50]
+		[PlanificacioMenu_Class10048]
+		[PlanificacioMenu_Class10049]
+		[PlanMenu_Class46]
+		[PlanMenu_Class53]
+		[PlanificacioMenu_Class10024]
+		[PlanificacioMenu_Class10017])
+	(NomPlat "Amanida de patata i ou")
+	(Proteines 2.0)
+	(Sal 0.3)
+	(Sucres 5.0))
+
+([PlanificacioMenu_Class10048] of  Altres
+
+	(NomIngredient "Olives"))
+
+([PlanificacioMenu_Class10049] of  Ous
+
+	(NomIngredient "Ous"))
+
+([PlanificacioMenu_Class10050] of  Guarnicio
+
+	(Colesterol 0.013)
+	(ContingutCaloric 187.0)
+	(Fibra 0.0)
+	(GreixosMonoinsaturats 2.9)
+	(GreixosPolisaturats 2.9)
+	(GreixosSaturats 1.5)
+	(HidratsDeCarboni 9.4)
+	(IngredientsPlat
+		[PlanMenu_Class56]
+		[PlanificacioMenu_Class10012]
+		[PlanificacioMenu_Class10051]
+		[PlanificacioMenu_Class10052])
+	(NomPlat "Amanida de tonyina")
+	(Proteines 16.0)
+	(Sal 0.4)
+	(Sucres 0.0))
+
+([PlanificacioMenu_Class10051] of  Altres
+
+	(NomIngredient "Blat de moro"))
+
+([PlanificacioMenu_Class10052] of  Peix
+
+	(NomIngredient "Tonyina"))
+
+([PlanificacioMenu_Class10053] of  Guarnicio
+
+	(Colesterol 0.024)
+	(ContingutCaloric 68.0)
+	(Fibra 1.1)
+	(GreixosMonoinsaturats 0.5)
+	(GreixosPolisaturats 0.2)
+	(GreixosSaturats 1.0)
+	(HidratsDeCarboni 3.8)
+	(IngredientsPlat
+		[PlanificacioMenu_Class27]
+		[PlanMenu_Class47]
+		[PlanMenu_Class56]
+		[PlanMenu_Class32]
+		[PlanMenu_Class50]
+		[PlanMenu_Class53])
+	(NomPlat "Amanida cesar")
+	(Proteines 9.8)
+	(Sal 0.2)
+	(Sucres 1.6))
+
+([PlanificacioMenu_Class11] of  Lactic
+
+	(Colesterol 0.0)
+	(ContingutCaloric 68.0)
+	(Fibra 0.5)
+	(GreixosMonoinsaturats 0.0)
+	(GreixosPolisaturats 0.1)
+	(GreixosSaturats 0.0)
+	(HidratsDeCarboni 10.1)
+	(IngredientsPlat
+		[PlanificacioMenu_Class12]
+		[PlanificacioMenu_Class31])
+	(NomPlat "Got de llet de soja")
+	(Proteines 6.0)
+	(Sal 0.1)
+	(Sucres 8.9))
+
+([PlanificacioMenu_Class12] of  Begudes
+
+	(NomIngredient "Llet de soja"))
+
+([PlanificacioMenu_Class14] of  Lactic
+
+	(Colesterol 0.122)
+	(ContingutCaloric 102.0)
+	(Fibra 0.0)
+	(GreixosMonoinsaturats 0.7)
+	(GreixosPolisaturats 0.1)
+	(GreixosSaturats 1.5)
+	(HidratsDeCarboni 12.2)
+	(IngredientsPlat [PlanificacioMenu_Class3])
+	(NomPlat "Got de llet desnatada")
+	(Proteines 8.2)
+	(Sal 0.1)
+	(Sucres 12.7))
+
+([PlanificacioMenu_Class15] of  Lactic
+
+	(Colesterol 0.0)
+	(ContingutCaloric 340.0)
+	(Fibra 0.0)
+	(GreixosMonoinsaturats 4.0)
+	(GreixosPolisaturats 10.3)
+	(GreixosSaturats 2.6)
+	(HidratsDeCarboni 15.5)
+	(IngredientsPlat [PlanificacioMenu_Class32])
+	(NomPlat "Formatge de tofu")
+	(Proteines 28.1)
+	(Sal 0.1)
+	(Sucres 3.6))
+
+([PlanificacioMenu_Class17] of  Lactic
+
+	(Colesterol 0.0319)
+	(ContingutCaloric 100.0)
+	(Fibra 0.0)
+	(GreixosMonoinsaturats 2.2)
+	(GreixosPolisaturats 0.2)
+	(GreixosSaturats 4.9)
+	(HidratsDeCarboni 0.6)
+	(IngredientsPlat [PlanificacioMenu_Class3])
+	(NomPlat "Formatge gouda")
+	(Proteines 7.0)
+	(Sal 0.2)
+	(Sucres 0.6))
+
+([PlanificacioMenu_Class18] of  Lactic
+
+	(Colesterol 0.023)
+	(ContingutCaloric 95.0)
+	(Fibra 0.0)
+	(GreixosMonoinsaturats 1.8)
+	(GreixosPolisaturats 0.2)
+	(GreixosSaturats 4.4)
+	(HidratsDeCarboni 1.3)
+	(IngredientsPlat [PlanificacioMenu_Class3])
+	(NomPlat "Formatge suis")
+	(Proteines 6.7)
+	(Sal 0.1)
+	(Sucres 0.3))
+
+([PlanificacioMenu_Class20] of  Lactic
+
+	(Colesterol 0.025)
+	(ContingutCaloric 93.0)
+	(Fibra 0.0)
+	(GreixosMonoinsaturats 2.1)
+	(GreixosPolisaturats 0.3)
+	(GreixosSaturats 4.5)
+	(HidratsDeCarboni 0.9)
+	(IngredientsPlat [PlanificacioMenu_Class3])
+	(NomPlat "Formatge americà")
+	(Proteines 4.5)
+	(Sal 0.4)
+	(Sucres 0.6))
+
+([PlanificacioMenu_Class20000] of  Dinar
+)
+
+([PlanificacioMenu_Class20001] of  Esmorzar
+)
+
+([PlanificacioMenu_Class20002] of  Sopar
+)
+
+([PlanificacioMenu_Class20003] of  Guarnicio
+
+	(Puntuacio 0))
+
+([PlanificacioMenu_Class21] of  Lactic
+
+	(Colesterol 0.0267)
+	(ContingutCaloric 1.7)
+	(Fibra 0.0)
+	(GreixosMonoinsaturats 2.4)
+	(GreixosPolisaturats 0.2)
+	(GreixosSaturats 5.3)
+	(HidratsDeCarboni 0.4)
+	(IngredientsPlat [PlanificacioMenu_Class3])
+	(NomPlat "Formatge edam")
+	(Proteines 7.5)
+	(Sal 0.3)
+	(Sucres 0.4))
+
+([PlanificacioMenu_Class22] of  Cereal
+
+	(Colesterol 0.0)
+	(ContingutCaloric 74.0)
+	(Fibra 0.8)
+	(GreixosMonoinsaturats 0.2)
+	(GreixosPolisaturats 0.4)
+	(GreixosSaturats 0.2)
+	(HidratsDeCarboni 13.7)
+	(IngredientsPlat
+		[PlanMenu_Class53]
+		[PlanificacioMenu_Class27])
+	(NomPlat "Pa blanc")
+	(Proteines 2.6)
+	(Sal 0.1)
+	(Sucres 1.4))
+
+([PlanificacioMenu_Class23] of  Cereal
+
+	(Colesterol 0.0)
+	(ContingutCaloric 58.0)
+	(Fibra 0.3)
+	(GreixosMonoinsaturats 0.9)
+	(GreixosPolisaturats 0.3)
+	(GreixosSaturats 1.2)
+	(HidratsDeCarboni 7.8)
+	(IngredientsPlat
+		[PlanificacioMenu_Class33]
+		[PlanificacioMenu_Class10]
+		[PlanificacioMenu_Class9])
+	(NomPlat "Galetes amb xocolata")
+	(Proteines 0.6)
+	(Sal 0.1)
+	(Sucres 4.3))
+
+([PlanificacioMenu_Class24] of  Cereal
+
+	(Colesterol 0.0)
+	(ContingutCaloric 12.0)
+	(Fibra 2.8)
+	(GreixosMonoinsaturats 0.5)
+	(GreixosPolisaturats 1.4)
+	(GreixosSaturats 0.4)
+	(HidratsDeCarboni 0.0236)
+	(IngredientsPlat
+		[PlanMenu_Class53]
+		[PlanificacioMenu_Class28]
+		[PlanificacioMenu_Class30])
+	(NomPlat "Pa integral")
+	(Proteines 3.9)
+	(Sal 0.2)
+	(Sucres 1.8))
+
+([PlanificacioMenu_Class25] of  Cereal
+
+	(NomPlat "Cereals"))
+
+([PlanificacioMenu_Class26] of  Cereal
+
+	(Colesterol 0.0)
+	(ContingutCaloric 82.0)
+	(Fibra 1.9)
+	(GreixosMonoinsaturats 0.4)
+	(GreixosPolisaturats 0.3)
+	(GreixosSaturats 0.2)
+	(HidratsDeCarboni 15.4)
+	(IngredientsPlat
+		[PlanMenu_Class53]
+		[PlanificacioMenu_Class29])
+	(NomPlat "Pa de sègol")
+	(Proteines 2.7)
+	(Sal 0.2)
+	(Sucres 1.2))
+
+([PlanificacioMenu_Class27] of  Pa
+
+	(NomIngredient "Pa blanc"))
+
+([PlanificacioMenu_Class28] of  Pa
+
+	(NomIngredient "Pa integral"))
+
+([PlanificacioMenu_Class29] of  Pa
+
+	(NomIngredient "Pa de sègol"))
+
+([PlanificacioMenu_Class3] of  Begudes
+
+	(NomIngredient "Llet"))
+
+([PlanificacioMenu_Class30] of  Soja+%2F+Fruits+Secs
+
+	(NomIngredient "Pipes"))
+
+([PlanificacioMenu_Class30000] of  SegonPlat
+
+	(Colesterol 0.138)
+	(ContingutCaloric 123.0)
+	(Fibra 1.3)
+	(GreixosMonoinsaturats 3.944)
+	(GreixosPolisaturats 0.923)
+	(GreixosSaturats 2.557)
+	(HidratsDeCarboni 5.28)
+	(IngredientsPlat
+		[PlanificacioMenu_Class10032]
+		[PlanificacioMenu_Class10049]
+		[PlanificacioMenu_Class10020]
+		[PlanMenu_Class53]
+		[PlanMenu_Class50])
+	(NomPlat "Truita d'espinacs")
+	(Proteines 7.43)
+	(Puntuacio 0)
+	(Sal 0.194)
+	(Sucres 0.79))
+
+([PlanificacioMenu_Class30001] of  SegonPlat
+
+	(Colesterol 0.055)
+	(ContingutCaloric 297.0)
+	(Fibra 0.9)
+	(GreixosMonoinsaturats 7.977)
+	(GreixosPolisaturats 5.32)
+	(GreixosSaturats 4.022)
+	(HidratsDeCarboni 16.32)
+	(IngredientsPlat
+		[PlanificacioMenu_Class33]
+		[PlanificacioMenu_Class10049]
+		[PlanMenu_Class32]
+		[PlanificacioMenu_Class30004]
+		[PlanMenu_Class53])
+	(NomPlat "Pit de pollastre arrebossat")
+	(Proteines 15.59)
+	(Puntuacio 0)
+	(Sal 0.574)
+	(Sucres 0.88))
+
+([PlanificacioMenu_Class30003] of  Lactics
+
+	(NomIngredient "Llet"))
+
+([PlanificacioMenu_Class30004] of  Oli
+
+	(NomIngredient "Oli de girasol"))
+
+([PlanificacioMenu_Class30005] of  Postre
+
+	(Colesterol 0.0)
+	(ContingutCaloric 114.0)
+	(Fibra 0.0)
+	(GreixosMonoinsaturats 0.0)
+	(GreixosPolisaturats 0.0)
+	(GreixosSaturats 1.0)
+	(HidratsDeCarboni 22.4)
+	(IngredientsPlat
+		[PlanificacioMenu_Class10049]
+		[PlanificacioMenu_Class30003]
+		[PlanificacioMenu_Class10]
+		[PlanMenu_Class51])
+	(NomPlat "Flam d'ou")
+	(Proteines 0.0)
+	(Puntuacio 0)
+	(Sal 0.0)
+	(Sucres 0.0))
+
+([PlanificacioMenu_Class30006] of  Postre
+
+	(Colesterol 0.0)
+	(ContingutCaloric 258.0)
+	(Fibra 1.3)
+	(GreixosMonoinsaturats 0.0)
+	(GreixosPolisaturats 0.0)
+	(GreixosSaturats 6.2)
+	(HidratsDeCarboni 37.4)
+	(IngredientsPlat
+		[PlanificacioMenu_Class10049]
+		[PlanificacioMenu_Class9]
+		[PlanificacioMenu_Class10]
+		[PlanMenu_Class47]
+		[PlanificacioMenu_Class33]
+		[PlanificacioMenu_Class30007])
+	(NomPlat "Tiramisú")
+	(Proteines 0.0)
+	(Puntuacio 0)
+	(Sal 0.17)
+	(Sucres 25.0))
+
+([PlanificacioMenu_Class30007] of  Refinat
+
+	(NomIngredient "Café"))
+
+([PlanificacioMenu_Class30008] of  SegonPlat
+
+	(NomPlat "Paella")
+	(Puntuacio 0))
+
+([PlanificacioMenu_Class30009] of  SegonPlat
+
+	(Colesterol 0.057)
+	(ContingutCaloric 139.0)
+	(Fibra 0.0)
+	(GreixosMonoinsaturats 1.5)
+	(GreixosPolisaturats 1.08)
+	(GreixosSaturats 1.66)
+	(HidratsDeCarboni 0.0)
+	(IngredientsPlat
+		[PlanificacioMenu_Class30011]
+		[PlanMenu_Class53]
+		[PlanificacioMenu_Class30012])
+	(NomPlat "Conill al forn")
+	(Proteines 20.05)
+	(Puntuacio 0)
+	(Sal 0.041)
+	(Sucres 0.0))
+
+([PlanificacioMenu_Class30011] of  Carn
+
+	(NomIngredient "Conill"))
+
+([PlanificacioMenu_Class30012] of  AltresIngredients
+
+	(NomIngredient "Pebre"))
+
+([PlanificacioMenu_Class30013] of  SegonPlat
+
+	(Colesterol 0.0)
+	(ContingutCaloric 178.0)
+	(Fibra 1.2)
+	(GreixosMonoinsaturats 6.83)
+	(GreixosPolisaturats 3.36)
+	(GreixosSaturats 1.41)
+	(HidratsDeCarboni 8.2)
+	(IngredientsPlat
+		[PlanificacioMenu_Class30014]
+		[PlanificacioMenu_Class30015]
+		[PlanificacioMenu_Class10017]
+		[PlanificacioMenu_Class10020]
+		[PlanMenu_Class50])
+	(NomPlat "Orada al forn")
+	(Proteines 9.5)
+	(Puntuacio 0)
+	(Sal 1.1)
+	(Sucres 1.5))
+
+([PlanificacioMenu_Class30014] of  Peix
+
+	(NomIngredient "Orada"))
+
+([PlanificacioMenu_Class30015] of  AltresIngredients
+
+	(NomIngredient "Julivert"))
+
+([PlanificacioMenu_Class30016] of  SegonPlat
+
+	(Colesterol 0.0)
+	(ContingutCaloric 354.0)
+	(Fibra 4.0)
+	(GreixosMonoinsaturats 0.0)
+	(GreixosPolisaturats 0.0)
+	(GreixosSaturats 0.3)
+	(HidratsDeCarboni 72.0)
+	(IngredientsPlat
+		[PlanificacioMenu_Class10034]
+		[PlanificacioMenu_Class30017]
+		[PlanificacioMenu_Class30019]
+		[PlanificacioMenu_Class10017]
+		[PlanificacioMenu_Class10018]
+		[PlanificacioMenu_Class10020]
+		[PlanMenu_Class53]
+		[PlanMenu_Class50]
+		[PlanMenu_Class51])
+	(NomPlat "Fideua")
+	(Proteines 11.0)
+	(Puntuacio 0)
+	(Sal 0.03)
+	(Sucres 0.0))
+
+([PlanificacioMenu_Class30017] of  Marisc
+
+	(NomIngredient "Calamars"))
+
+([PlanificacioMenu_Class30019] of  Marisc
+
+	(NomIngredient "Gamba"))
+
+([PlanificacioMenu_Class30020] of  SegonPlat
+
+	(Colesterol 0.167)
+	(ContingutCaloric 514.0)
+	(Fibra 0.0)
+	(GreixosMonoinsaturats 12.81)
+	(GreixosPolisaturats 1.141)
+	(GreixosSaturats 11.0)
+	(HidratsDeCarboni 0.0)
+	(IngredientsPlat
+		[PlanificacioMenu_Class10028]
+		[PlanMenu_Class53]
+		[PlanificacioMenu_Class30012])
+	(NomPlat "Bistec")
+	(Proteines 55.67)
+	(Puntuacio 0)
+	(Sal 0.761)
+	(Sucres 0.0))
+
+([PlanificacioMenu_Class30021] of  SegonPlat
+
+	(Colesterol 0.0)
+	(ContingutCaloric 356.0)
+	(Fibra 0.7)
+	(GreixosMonoinsaturats 0.0)
+	(GreixosPolisaturats 0.0)
+	(GreixosSaturats 3.2)
+	(HidratsDeCarboni 12.5)
+	(IngredientsPlat
+		[PlanificacioMenu_Class30022]
+		[PlanMenu_Class46]
+		[PlanificacioMenu_Class10017]
+		[PlanMenu_Class50]
+		[PlanMenu_Class53]
+		[PlanificacioMenu_Class30023])
+	(NomPlat "Pop a la Gallega")
+	(Proteines 19.5)
+	(Puntuacio 0)
+	(Sal 0.8)
+	(Sucres 0.4))
+
+([PlanificacioMenu_Class30022] of  Marisc
+
+	(NomIngredient "Pop"))
+
+([PlanificacioMenu_Class30023] of  AltresIngredients
+
+	(NomIngredient "Pebre vermell"))
+
+([PlanificacioMenu_Class30024] of  SegonPlat
+
+	(Colesterol 0.021)
+	(ContingutCaloric 237.0)
+	(Fibra 1.6)
+	(GreixosMonoinsaturats 2.8)
+	(GreixosPolisaturats 1.7)
+	(GreixosSaturats 4.0)
+	(HidratsDeCarboni 26.0)
+	(IngredientsPlat
+		[PlanificacioMenu_Class33]
+		[PlanMenu_Class47]
+		[PlanificacioMenu_Class10012])
+	(NomPlat "Pizza quatre formatges")
+	(Proteines 10.6)
+	(Puntuacio 0)
+	(Sal 0.462)
+	(Sucres 3.0))
+
+([PlanificacioMenu_Class30026] of  SegonPlat
+
+	(Colesterol 0.051)
+	(ContingutCaloric 252.0)
+	(Fibra 1.8)
+	(GreixosMonoinsaturats 3.44)
+	(GreixosPolisaturats 1.25)
+	(GreixosSaturats 3.4)
+	(HidratsDeCarboni 26.84)
+	(IngredientsPlat
+		[PlanMenu_Class47]
+		[PlanificacioMenu_Class33]
+		[PlanificacioMenu_Class10012]
+		[PlanificacioMenu_Class30027])
+	(NomPlat "Pizza de tonyina")
+	(Proteines 15.2)
+	(Puntuacio 0)
+	(Sal 0.462)
+	(Sucres 2.0))
+
+([PlanificacioMenu_Class30027] of  Peix
+
+	(NomIngredient "Tonyina"))
+
+([PlanificacioMenu_Class30028] of  Postre
+
+	(Colesterol 0.0)
+	(ContingutCaloric 139.0)
+	(Fibra 0.0)
+	(GreixosMonoinsaturats 1.0)
+	(GreixosPolisaturats 0.0)
+	(GreixosSaturats 2.3)
+	(HidratsDeCarboni 22.0)
+	(IngredientsPlat
+		[PlanificacioMenu_Class30003]
+		[PlanificacioMenu_Class33]
+		[PlanificacioMenu_Class10049]
+		[PlanificacioMenu_Class10]
+		[PlanificacioMenu_Class10011])
+	(NomPlat "Natilla")
+	(Proteines 4.4)
+	(Puntuacio 0)
+	(Sal 0.06)
+	(Sucres 18.6))
+
+([PlanificacioMenu_Class30029] of  Postre
+
+	(Colesterol 0.0)
+	(ContingutCaloric 135.0)
+	(Fibra 0.0)
+	(GreixosMonoinsaturats 1.39)
+	(GreixosPolisaturats 0.4)
+	(GreixosSaturats 3.3)
+	(HidratsDeCarboni 12.36)
+	(IngredientsPlat
+		[PlanificacioMenu_Class30003]
+		[PlanificacioMenu_Class30007]
+		[PlanificacioMenu_Class10])
+	(NomPlat "Café amb llet")
+	(Proteines 8.81)
+	(Puntuacio 0)
+	(Sal 0.126)
+	(Sucres 13.5))
+
+([PlanificacioMenu_Class30030] of  Postre
+
+	(Colesterol 0.107)
+	(ContingutCaloric 187.0)
+	(Fibra 0.0)
+	(GreixosMonoinsaturats 1.0)
+	(GreixosPolisaturats 0.4)
+	(GreixosSaturats 0.82)
+	(HidratsDeCarboni 36.35)
+	(IngredientsPlat
+		[PlanificacioMenu_Class10049]
+		[PlanificacioMenu_Class30003]
+		[PlanificacioMenu_Class10011]
+		[PlanificacioMenu_Class10]
+		[PlanMenu_Class50]
+		[PlanMenu_Class53]
+		[PlanificacioMenu_Class33])
+	(NomPlat "Pa de pessic")
+	(Proteines 4.6)
+	(Puntuacio 0)
+	(Sal 0.144)
+	(Sucres 0.0))
+
+([PlanificacioMenu_Class31] of  Soja+%2F+Fruits+Secs
+
+	(NomIngredient "Soja"))
+
+([PlanificacioMenu_Class32] of  Soja+%2F+Fruits+Secs
+
+	(NomIngredient "Tofu"))
+
+([PlanificacioMenu_Class33] of  Sencer
+
+	(NomIngredient "Farina"))
+
+([PlanificacioMenu_Class34] of  Cereal
+
+	(Colesterol 0.0)
+	(ContingutCaloric 113.0)
+	(Fibra 0.7)
+	(GreixosMonoinsaturats 2.5)
+	(GreixosPolisaturats 0.6)
+	(GreixosSaturats 1.1)
+	(HidratsDeCarboni 17.2)
+	(IngredientsPlat
+		[PlanificacioMenu_Class35]
+		[PlanificacioMenu_Class10]
+		[PlanificacioMenu_Class33])
+	(NomPlat "Galetes integrals")
+	(Proteines 1.6)
+	(Sal 0.1)
+	(Sucres 6.2))
+
+([PlanificacioMenu_Class35] of  Sencer
+
+	(NomIngredient "Civada"))
+
+([PlanificacioMenu_Class37] of  Fruites
+
+	(Colesterol 0.0)
+	(ContingutCaloric 95.0)
+	(Fibra 4.4)
+	(GreixosMonoinsaturats 0.1)
+	(GreixosPolisaturats 0.1)
+	(GreixosSaturats 0.1)
+	(HidratsDeCarboni 25.1)
+	(IngredientsPlat [PlanMenu_Class29])
+	(NomPlat "Poma")
+	(Proteines 0.5)
+	(Sal 0.1)
+	(Sucres 18.9))
+
+([PlanificacioMenu_Class38] of  Fruites
+
+	(Colesterol 0.0)
+	(ContingutCaloric 112.0)
+	(Fibra 0.5)
+	(GreixosMonoinsaturats 0.1)
+	(GreixosPolisaturats 0.1)
+	(GreixosSaturats 0.1)
+	(HidratsDeCarboni 25.8)
+	(IngredientsPlat
+		[PlanificacioMenu_Class39]
+		[PlanificacioMenu_Class10])
+	(NomPlat "Suc de taronja")
+	(Proteines 1.7)
+	(Sal 0.1)
+	(Sucres 20.8))
+
+([PlanificacioMenu_Class39] of  Fruita
+
+	(NomIngredient "Taronja"))
+
+([PlanificacioMenu_Class4] of  Lactic
+
+	(Colesterol 0.0319)
+	(ContingutCaloric 149.0)
+	(Fibra 0.0)
+	(GreixosMonoinsaturats 2.2)
+	(GreixosPolisaturats 0.2)
+	(GreixosSaturats 5.1)
+	(HidratsDeCarboni 11.4)
+	(IngredientsPlat [PlanificacioMenu_Class3])
+	(NomPlat "Iogurt natural")
+	(Proteines 8.5)
+	(Sal 0.1)
+	(Sucres 11.4))
+
+([PlanificacioMenu_Class40] of  Fruites
+
+	(Colesterol 0.0)
+	(ContingutCaloric 86.0)
+	(Fibra 4.4)
+	(GreixosMonoinsaturats 0.1)
+	(GreixosPolisaturats 0.1)
+	(GreixosSaturats 0.1)
+	(HidratsDeCarboni 21.6)
+	(IngredientsPlat [PlanificacioMenu_Class39])
+	(NomPlat "Taronja")
+	(Proteines 1.7)
+	(Sal 0.0)
+	(Sucres 17.2))
+
+([PlanificacioMenu_Class41] of  Fruites
+
+	(Colesterol 0.0)
+	(ContingutCaloric 35.0)
+	(Fibra 1.3)
+	(GreixosMonoinsaturats 0.0)
+	(GreixosPolisaturats 0.0)
+	(GreixosSaturats 0.0)
+	(HidratsDeCarboni 8.9)
+	(IngredientsPlat [PlanificacioMenu_Class42])
+	(NomPlat "Mandarina")
+	(Proteines 0.6)
+	(Sal 0.1)
+	(Sucres 6.8))
+
+([PlanificacioMenu_Class42] of  Fruita
+
+	(NomIngredient "Mandarina"))
+
+([PlanificacioMenu_Class43] of  Fruites
+
+	(Colesterol 0.0)
+	(ContingutCaloric 45.0)
+	(Fibra 1.3)
+	(GreixosMonoinsaturats 0.1)
+	(GreixosPolisaturats 0.1)
+	(GreixosSaturats 0.1)
+	(HidratsDeCarboni 11.8)
+	(IngredientsPlat [PlanificacioMenu_Class44])
+	(NomPlat "Pinya")
+	(Proteines 0.5)
+	(Sal 0.1)
+	(Sucres 8.9))
+
+([PlanificacioMenu_Class44] of  Fruita
+
+	(NomIngredient "Pinya"))
+
+([PlanificacioMenu_Class45] of  Fruites
+
+	(Colesterol 0.0)
+	(ContingutCaloric 125.0)
+	(Fibra 0.3)
+	(GreixosMonoinsaturats 0.0)
+	(GreixosPolisaturats 0.0)
+	(GreixosSaturats 0.0)
+	(HidratsDeCarboni 29.5)
+	(IngredientsPlat
+		[PlanificacioMenu_Class10]
+		[PlanificacioMenu_Class44])
+	(NomPlat "Suc de pinya")
+	(Proteines 3.3)
+	(Sal 0.1)
+	(Sucres 29.0))
+
+([PlanificacioMenu_Class46] of  Fruites
+
+	(Colesterol 0.0)
+	(ContingutCaloric 86.0)
+	(Fibra 1.1)
+	(GreixosMonoinsaturats 0.1)
+	(GreixosPolisaturats 0.1)
+	(GreixosSaturats 0.1)
+	(HidratsDeCarboni 21.6)
+	(IngredientsPlat [PlanificacioMenu_Class47])
+	(NomPlat "Sindria")
+	(Proteines 1.7)
+	(Sal 0.1)
+	(Sucres 17.7))
+
+([PlanificacioMenu_Class47] of  Fruita
+
+	(NomIngredient "Sindria"))
+
+([PlanificacioMenu_Class48] of  Fruites
+
+	(Colesterol 0.0)
+	(ContingutCaloric 64.0)
+	(Fibra 1.4)
+	(GreixosMonoinsaturats 0.1)
+	(GreixosPolisaturats 0.1)
+	(GreixosSaturats 0.1)
+	(HidratsDeCarboni 16.1)
+	(IngredientsPlat [PlanificacioMenu_Class49])
+	(NomPlat "Meló")
+	(Proteines 1.0)
+	(Sal 0.1)
+	(Sucres 14.4))
+
+([PlanificacioMenu_Class49] of  Fruita
+
+	(NomIngredient "Melo"))
+
+([PlanificacioMenu_Class50] of  Fruites
+
+	(Colesterol 0.0)
+	(ContingutCaloric 101.0)
+	(Fibra 5.5)
+	(GreixosMonoinsaturats 0.1)
+	(GreixosPolisaturats 0.2)
+	(GreixosSaturats 0.1)
+	(HidratsDeCarboni 27.1)
+	(IngredientsPlat [PlanificacioMenu_Class51])
+	(NomPlat "Pera")
+	(Proteines 0.6)
+	(Sal 0.1)
+	(Sucres 17.4))
+
+([PlanificacioMenu_Class51] of  Fruita
+
+	(NomIngredient "Pera"))
+
+([PlanificacioMenu_Class52] of  Fruites
+
+	(Colesterol 0.0)
+	(ContingutCaloric 17.0)
+	(Fibra 0.7)
+	(GreixosMonoinsaturats 0.1)
+	(GreixosPolisaturats 0.1)
+	(GreixosSaturats 0.1)
+	(HidratsDeCarboni 3.9)
+	(IngredientsPlat [PlanificacioMenu_Class53])
+	(NomPlat "Albercoc")
+	(Proteines 0.5)
+	(Sal 0.1)
+	(Sucres 3.2))
+
+([PlanificacioMenu_Class53] of  Fruita
+
+	(NomIngredient "Albercoc"))
+
+([PlanificacioMenu_Class54] of  Fruites
+
+	(Colesterol 0.0)
+	(ContingutCaloric 35.0)
+	(Fibra 0.5)
+	(GreixosMonoinsaturats 0.1)
+	(GreixosPolisaturats 0.1)
+	(GreixosSaturats 0.1)
+	(HidratsDeCarboni 9.1)
+	(IngredientsPlat [PlanificacioMenu_Class55])
+	(NomPlat "Raim")
+	(Proteines 0.4)
+	(Sal 0.1)
+	(Sucres 7.7))
+
+([PlanificacioMenu_Class55] of  Fruita
+
+	(NomIngredient "Raim"))
+
+([PlanificacioMenu_Class56] of  Fruites
+
+	(Colesterol 0.0)
+	(ContingutCaloric 134.0)
+	(Fibra 1.5)
+	(GreixosMonoinsaturats 0.1)
+	(GreixosPolisaturats 0.1)
+	(GreixosSaturats 0.1)
+	(HidratsDeCarboni 34.7)
+	(IngredientsPlat
+		[PlanificacioMenu_Class57]
+		[PlanificacioMenu_Class10])
+	(NomPlat "Suc de pressec")
+	(Proteines 0.7)
+	(Sal 0.1)
+	(Sucres 26.0))
+
+([PlanificacioMenu_Class57] of  Fruita
+
+	(NomIngredient "Pressec"))
+
+([PlanificacioMenu_Class58] of  Fruites
+
+	(Colesterol 0.0)
+	(ContingutCaloric 51.0)
+	(Fibra 1.7)
+	(GreixosMonoinsaturats 0.1)
+	(GreixosPolisaturats 0.1)
+	(GreixosSaturats 0.1)
+	(HidratsDeCarboni 12.8)
+	(IngredientsPlat [PlanificacioMenu_Class59])
+	(NomPlat "Cireres")
+	(Proteines 0.8)
+	(Sal 0.0)
+	(Sucres 10.3))
+
+([PlanificacioMenu_Class59] of  Fruita
+
+	(NomIngredient "Cireres"))
+
+([PlanificacioMenu_Class6] of  Lactic
+
+	(Colesterol 0.0123)
+	(ContingutCaloric 243.0)
+	(Fibra 0.0)
+	(GreixosMonoinsaturats 0.8)
+	(GreixosPolisaturats 0.1)
+	(GreixosSaturats 1.8)
+	(HidratsDeCarboni 45.7)
+	(IngredientsPlat
+		[PlanificacioMenu_Class3]
+		[PlanMenu_Class28]
+		[PlanificacioMenu_Class10])
+	(NomPlat "Iogurt de maduixa")
+	(Proteines 9.8)
+	(Sal 0.1)
+	(Sucres 45.7))
+
+([PlanificacioMenu_Class60] of  Fruites
+
+	(Colesterol 0.0)
+	(ContingutCaloric 59.0)
+	(Fibra 2.3)
+	(GreixosMonoinsaturats 0.1)
+	(GreixosPolisaturats 0.1)
+	(GreixosSaturats 0.1)
+	(HidratsDeCarboni 14.3)
+	(IngredientsPlat [PlanificacioMenu_Class57])
+	(NomPlat "Pressec")
+	(Proteines 1.4)
+	(Sal 0.0)
+	(Sucres 12.6))
+
+([PlanificacioMenu_Class8] of  Lactic
+
+	(Colesterol 0.015)
+	(ContingutCaloric 168.0)
+	(Fibra 1.8)
+	(GreixosMonoinsaturats 0.0)
+	(GreixosPolisaturats 0.0)
+	(GreixosSaturats 0.0)
+	(HidratsDeCarboni 35.3)
+	(IngredientsPlat
+		[PlanificacioMenu_Class3]
+		[PlanificacioMenu_Class9]
+		[PlanificacioMenu_Class10])
+	(NomPlat "Iogurt de xocolata")
+	(Proteines 5.3)
+	(Sal 0.2)
+	(Sucres 22.5))
+
+([PlanificacioMenu_Class9] of  AltresIngredients
+
+	(NomIngredient "Xocolata"))
+
+([PlanMenu_Class25] of  Dinar
+
+	(GuarnicioMenu [PlanMenu_Class55])
+	(PostreMenu [PlanMenu_Class26])
+	(PrimerPlatMenu [PlanMenu_Class43])
+	(SegonPlatMenu [PlanMenu_Class42]))
+
+([PlanMenu_Class26] of  Postre
+
+	(IngredientsPlat
+		[PlanMenu_Class27]
+		[PlanMenu_Class28]
+		[PlanMenu_Class29])
+	(NomPlat "Amanida de fruites"))
+
+([PlanMenu_Class27] of  Fruita
+
+	(NomIngredient "Kiwi"))
+
+([PlanMenu_Class28] of  Fruita
+
+	(NomIngredient "Maduixa"))
+
+([PlanMenu_Class29] of  Fruita
+
+	(NomIngredient "Poma"))
+
+([PlanMenu_Class32] of  Carn
+
+	(NomIngredient "Pollastre"))
+
+([PlanMenu_Class42] of  SegonPlat
+
+	(Colesterol 0.143)
+	(ContingutCaloric 275.0)
+	(Fibra 0.0)
+	(GreixosMonoinsaturats 5.5)
+	(GreixosPolisaturats 1.8)
+	(GreixosSaturats 3.1)
+	(HidratsDeCarboni 0.0)
+	(IngredientsPlat [PlanMenu_Class32])
+	(NomPlat "Pollastre a l'ast")
+	(Proteines 41.0)
+	(Sal 0.519)
+	(Sucres 0.0))
+
+([PlanMenu_Class43] of  PrimerPlat
+
+	(Colesterol 0.014)
+	(ContingutCaloric 109.0)
+	(Fibra 2.9)
+	(GreixosMonoinsaturats 1.8)
+	(GreixosPolisaturats 0.271)
+	(GreixosSaturats 4.118)
+	(HidratsDeCarboni 6.88)
+	(IngredientsPlat
+		[PlanMenu_Class44]
+		[PlanMenu_Class46]
+		[PlanMenu_Class47]
+		[PlanMenu_Class48]
+		[PlanMenu_Class50]
+		[PlanMenu_Class51]
+		[PlanMenu_Class53])
+	(NomPlat "Crema de carbassa")
+	(Proteines 2.96)
+	(Sal 1.688)
+	(Sucres 4.11))
+
+([PlanMenu_Class44] of  Vermell+%2F+Taronja
+
+	(NomIngredient "Carbassa"))
+
+([PlanMenu_Class46] of  Mid%C3%B3
+
+	(NomIngredient "Patata"))
+
+([PlanMenu_Class47] of  Lactics
+
+	(NomIngredient "Formatge"))
+
+([PlanMenu_Class48] of  Carn
+
+	(NomIngredient "Pernil"))
+
+([PlanMenu_Class50] of  Oli
+
+	(NomIngredient "Oli d'oliva"))
+
+([PlanMenu_Class51] of  Begudes
+
+	(NomIngredient "Aigua"))
+
+([PlanMenu_Class53] of  AltresIngredients
+
+	(NomIngredient "Sal"))
+
+([PlanMenu_Class55] of  Guarnicio
+
+	(Colesterol 0.0)
+	(ContingutCaloric 19.0)
+	(Fibra 1.7)
+	(GreixosMonoinsaturats 0.0)
+	(GreixosPolisaturats 0.0)
+	(GreixosSaturats 0.0)
+	(HidratsDeCarboni 2.2)
+	(IngredientsPlat
+		[PlanMenu_Class56]
+		[PlanMenu_Class57]
+		[PlanMenu_Class58])
+	(NomPlat "Amanida quatre estacions")
+	(Proteines 1.0)
+	(Sal 0.024)
+	(Sucres 2.8))
+
+([PlanMenu_Class56] of  Verd+Fosc
+
+	(NomIngredient "Enciam Iceberg"))
+
+([PlanMenu_Class57] of  Vermell+%2F+Taronja
+
+	(NomIngredient "Pastanaga"))
+
+([PlanMenu_Class58] of  Vermell+%2F+Taronja
+
+	(NomIngredient "Col llombarda"))

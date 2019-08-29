@@ -1,0 +1,463 @@
+; Wed May 01 22:49:33 CEST 2019
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+
+(defclass %3ACLIPS_TOP_LEVEL_SLOT_CLASS "Fake class to save top-level slot information"
+	(is-a USER)
+	(role abstract)
+	(single-slot Proteines
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Sexe
+		(type SYMBOL)
+		(allowed-values Home Dona)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot LacticMenu
+		(type INSTANCE)
+;+		(allowed-classes Lactic)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot Raonament
+		(type STRING)
+		(create-accessor read-write))
+	(single-slot HidratsDeCarboni
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot MenuDinar
+		(type INSTANCE)
+;+		(allowed-classes Dinar)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot RestriccioAlimenticiaUsuari
+		(type STRING)
+		(create-accessor read-write))
+	(single-slot MenuEsmorzar
+		(type INSTANCE)
+;+		(allowed-classes Esmorzar)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Puntuacio
+		(type INTEGER)
+		(default 0)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot NomIngredient
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Edat
+		(type INTEGER)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot NomPlat
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Fibra
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot FruitaMenu
+		(type INSTANCE)
+;+		(allowed-classes Fruites)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Activitat+Fisica
+		(type SYMBOL)
+		(allowed-values Poca Normal Molta)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot MenuDia
+		(type INSTANCE)
+;+		(allowed-classes DiaSetmana)
+		(cardinality 1 7)
+		(create-accessor read-write))
+	(single-slot ContingutCaloric
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot GreixosPolisaturats
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot MenuSopar
+		(type INSTANCE)
+;+		(allowed-classes Sopar)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Sal
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot CerealMenu
+		(type INSTANCE)
+;+		(allowed-classes Cereal)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot NomMalaltia
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot NomDia
+		(type SYMBOL)
+		(allowed-values Dilluns Dimarts Dimecres Dijous Divendres Dissabte Diumenge)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Sucres
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Colesterol
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot MalaltiaUsuari
+		(type STRING)
+		(create-accessor read-write))
+	(single-slot PrimerPlatMenu
+		(type INSTANCE)
+;+		(allowed-classes PrimerPlat)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot GreixosMonoinsaturats
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot IngredientsPlat
+		(type INSTANCE)
+;+		(allowed-classes Ingredients)
+		(cardinality 1 ?VARIABLE)
+		(create-accessor read-write))
+	(single-slot GreixosSaturats
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot GuarnicioMenu
+		(type INSTANCE)
+;+		(allowed-classes Guarnicio)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot PostreMenu
+		(type INSTANCE)
+;+		(allowed-classes Postre)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot SegonPlatMenu
+		(type INSTANCE)
+;+		(allowed-classes SegonPlat)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass Usuari
+	(is-a USER)
+	(role concrete)
+	(single-slot Edat
+		(type INTEGER)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot MalaltiaUsuari
+		(type STRING)
+		(create-accessor read-write))
+	(single-slot Activitat+Fisica
+		(type SYMBOL)
+		(allowed-values Poca Normal Molta)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Sexe
+		(type SYMBOL)
+		(allowed-values Home Dona)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot RestriccioAlimenticiaUsuari
+		(type STRING)
+		(create-accessor read-write))
+	(multislot MenuDia
+		(type INSTANCE)
+;+		(allowed-classes DiaSetmana)
+		(cardinality 1 7)
+		(create-accessor read-write)))
+
+(defclass Menu
+	(is-a USER)
+	(role concrete))
+
+(defclass Esmorzar
+	(is-a Menu)
+	(role concrete)
+	(single-slot CerealMenu
+		(type INSTANCE)
+;+		(allowed-classes Cereal)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot FruitaMenu
+		(type INSTANCE)
+;+		(allowed-classes Fruites)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot LacticMenu
+		(type INSTANCE)
+;+		(allowed-classes Lactic)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass Dinar
+	(is-a Menu)
+	(role concrete)
+	(single-slot GuarnicioMenu
+		(type INSTANCE)
+;+		(allowed-classes Guarnicio)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot PostreMenu
+		(type INSTANCE)
+;+		(allowed-classes Postre)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot SegonPlatMenu
+		(type INSTANCE)
+;+		(allowed-classes SegonPlat)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot PrimerPlatMenu
+		(type INSTANCE)
+;+		(allowed-classes PrimerPlat)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass Sopar
+	(is-a Menu)
+	(role concrete)
+	(single-slot GuarnicioMenu
+		(type INSTANCE)
+;+		(allowed-classes Guarnicio)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot PostreMenu
+		(type INSTANCE)
+;+		(allowed-classes Postre)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot SegonPlatMenu
+		(type INSTANCE)
+;+		(allowed-classes SegonPlat)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot PrimerPlatMenu
+		(type INSTANCE)
+;+		(allowed-classes PrimerPlat)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass Plats
+	(is-a USER)
+	(role concrete)
+	(single-slot Proteines
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Puntuacio
+		(type INTEGER)
+		(default 0)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot GreixosMonoinsaturats
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Sal
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot NomPlat
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Fibra
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot IngredientsPlat
+		(type INSTANCE)
+;+		(allowed-classes Ingredients)
+		(cardinality 1 ?VARIABLE)
+		(create-accessor read-write))
+	(single-slot Sucres
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Colesterol
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot Raonament
+		(type STRING)
+		(create-accessor read-write))
+	(single-slot GreixosSaturats
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot HidratsDeCarboni
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot ContingutCaloric
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot GreixosPolisaturats
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass PrimerPlat
+	(is-a Plats)
+	(role concrete))
+
+(defclass SegonPlat
+	(is-a Plats)
+	(role concrete))
+
+(defclass Guarnicio
+	(is-a Plats)
+	(role concrete))
+
+(defclass Postre
+	(is-a Plats)
+	(role concrete))
+
+(defclass Lactic
+	(is-a Plats)
+	(role concrete))
+
+(defclass Cereal
+	(is-a Plats)
+	(role concrete))
+
+(defclass Fruites
+	(is-a Plats)
+	(role concrete))
+
+(defclass Ingredients
+	(is-a USER)
+	(role concrete)
+	(single-slot NomIngredient
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass Begudes
+	(is-a Ingredients)
+	(role concrete))
+
+(defclass Fruita
+	(is-a Ingredients)
+	(role concrete))
+
+(defclass Gra
+	(is-a Ingredients)
+	(role concrete))
+
+(defclass Refinat
+	(is-a Gra)
+	(role concrete))
+
+(defclass Pa
+	(is-a Refinat)
+	(role concrete))
+
+(defclass Pasta
+	(is-a Refinat)
+	(role concrete))
+
+(defclass Sencer
+	(is-a Gra)
+	(role concrete))
+
+(defclass Lactics
+	(is-a Ingredients)
+	(role concrete))
+
+(defclass Proteics
+	(is-a Ingredients)
+	(role concrete))
+
+(defclass Carn
+	(is-a Proteics)
+	(role concrete))
+
+(defclass Marisc
+	(is-a Proteics)
+	(role concrete))
+
+(defclass Ous
+	(is-a Proteics)
+	(role concrete))
+
+(defclass Soja+%2F+Fruits+Secs
+	(is-a Proteics)
+	(role concrete))
+
+(defclass Peix
+	(is-a Proteics)
+	(role concrete))
+
+(defclass Verdura
+	(is-a Ingredients)
+	(role concrete))
+
+(defclass Altres
+	(is-a Verdura)
+	(role concrete))
+
+(defclass Llegums
+	(is-a Verdura)
+	(role concrete))
+
+(defclass Mid%C3%B3
+	(is-a Verdura)
+	(role concrete))
+
+(defclass Verd+Fosc
+	(is-a Verdura)
+	(role concrete))
+
+(defclass Vermell+%2F+Taronja
+	(is-a Verdura)
+	(role concrete))
+
+(defclass Oli
+	(is-a Ingredients)
+	(role concrete))
+
+(defclass AltresIngredients
+	(is-a Ingredients)
+	(role concrete))
+
+(defclass DiaSetmana
+	(is-a USER)
+	(role concrete)
+	(single-slot MenuEsmorzar
+		(type INSTANCE)
+;+		(allowed-classes Esmorzar)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot MenuSopar
+		(type INSTANCE)
+;+		(allowed-classes Sopar)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot MenuDinar
+		(type INSTANCE)
+;+		(allowed-classes Dinar)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot NomDia
+		(type SYMBOL)
+		(allowed-values Dilluns Dimarts Dimecres Dijous Divendres Dissabte Diumenge)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
